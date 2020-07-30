@@ -40,7 +40,7 @@ When('i create function where it output should be [1, 3]') do
           if array1[i] == array2[x] && flag < 2
               array3.push(val_b)
               flag = flag + 1
-            puts "#{val_b.split("")}"
+            print "#{val_b.split("")}"
           end
       end
   end
